@@ -21,8 +21,10 @@
 	<project path="hardware/mediatek" name="android_hardware_mediatek" remote="Global" revision="14.0"/>
 	<!-- Sepolicy -->
 	<project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="Global" revision="lineage-21"/>
+	<!-- Remove Updater -->
+	<remove-project name="crdroidandroid/android_packages_apps_Updater"/>
+	<remove-project name="crdroidandroid/android_vendor_crDroidOTA"/> 
 	<!-- Updater -->
-	<!--<remove-project name="LineageOS/android_packages_apps_Updater"/>-->
 	<project path="packages/apps/Updater" name="android-sudo/Update" remote="github" revision="14.0"/>
 	<project path="vendor/crDroidOTA" name="android-sudo/Update" remote="github" revision="ota-14"/>
 	<!-- End -->
